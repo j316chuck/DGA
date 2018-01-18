@@ -1,0 +1,56 @@
+Battle Plan:
+1) first four weeks-- continue reading papers, studying algorithms, and implementing past solutions
+2) next three weeks implement many different ml algorithms to see which one works best on dga.
+
+
+Summary of What I learned
+1) Problem - DGA -> uses different ad hoc algorithms to generate large number of malicious host sites
+2) Solution - Write an algorithm that best distinguishes between bad and good data sets
+3) Problem with all current solutions -> no solution for chinese websites only american 
+(very different in the way Chinese people name their websites)
+4) How to implement:
+	Has correlations with NLP
+	Study current algorithms
+	implement current algorithms with modifications to chinese language
+5) *** very similar to the kaggle competitions I do.
+
+Goal: Have fun, this is interesting, change the world, 2 hours every day at least. 
+
+Further Notes:
+
+Schedule: 
+Main learning/implementation reference 
+3 days data hacking website 1) read portion 2) read others 3) implement
+
+Papers -- ms_thesis_dns_bots (good paper) (reread if I have time) (3 days on paper)
+uses naive bayes, neural network, and svm, n-gram concept, javvard similiarity coefficient -> efficient index that measures the similiarity between two strings. 
+top 100000 visited domains combined with English dictionary words -> 
+Jacard index = A union B / A intersection B, SVM -> 
+n-fold cross-validation as model selection technique -> n subsets same size. 
+1-day (re-read well 2 hours +  1 hour research)
+
+Takes data from previous bots like conficker, kraken, and storm,
+(reverse engineering time consuming)
+
+DGA -> a lot of domains -> connect to server
+you cannot block all these servers/websites
+DGA -> algorithm based on time :)
+another example Kraken = english words + prefixes
+
+Domain generation algorithms (DGA) are algorithms seen in various families of malware that are used to periodically generate a large number of domain names that can be used as rendezvous points with their command and control servers. The large number of potential rendezvous points makes it difficult for law enforcement to effectively shut down botnets, since infected computers will attempt to contact some of these domain names every day to receive updates or commands. The use of public-key cryptography in malware code makes it unfeasible for law enforcement and other actors to mimic commands from the malware controllers as some worms will automatically reject any updates not signed by the malware controllers.
+
+reading up on China domain name server... 1  - 2 week 
+NLTK For python learn + implement many algorithms pseudo code (2 week) (or can implement using numpy + scikit)
+
+Finally 3 weeks implement 3 algorithms ->
+
+
+Can be a continuation project where you continually refine the algorithms you use
+
+Later: (NLP course)
+NLP Process
+NLP-Tokenization, stemming, POS tagging, lemmatization
+Machine learning-Naive Bayes,logistic regression, svc
+Evaluation metrics, precision recall, f score, roc curves, true positive rate and false positive rates
+Deel learning - recurrent neural networks, keras
+Topic Modeling - LSTM GRU, logistic regression. 
